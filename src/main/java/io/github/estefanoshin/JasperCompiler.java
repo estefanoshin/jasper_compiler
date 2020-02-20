@@ -1,3 +1,5 @@
+package io.github.estefanoshin;
+
 import java.io.File;
 import java.util.Collection;
 

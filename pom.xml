@@ -6,6 +6,8 @@
 	<artifactId>jasper-compiler</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
+	<name>Jasper Compiler</name>
+	<description>A compiler for Jasper Projects</description>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->

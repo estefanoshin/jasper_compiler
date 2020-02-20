@@ -9,6 +9,14 @@
 	<name>Jasper Compiler</name>
 	<description>A compiler for Jasper Projects</description>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/estefanoshin/jasper_compiler</url>
+		</repository>
+	</distributionManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/estefanoshin/jasper_compiler.git</connection>
 		<developerConnection>scm:git:git@github.com:estefanoshin/jasper_compiler.git</developerConnection>
@@ -98,6 +106,18 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.7</version>
+				<extensions>true</extensions>
+				<configuration>
+					<serverId>ossrh</serverId>
+					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+				</configuration>
 			</plugin>
 
 			<plugin>

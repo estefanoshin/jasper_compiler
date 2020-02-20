@@ -13,7 +13,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub OWNER Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com//jasper_compiler</url>
+			<url>https://maven.pkg.github.com/estefanoshin/jasper_compiler</url>
 		</repository>
 	</distributionManagement>
 

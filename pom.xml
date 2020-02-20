@@ -4,7 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>jasper</groupId>
 	<artifactId>jasper-compiler</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
@@ -46,10 +47,10 @@
 			<artifactId>javase</artifactId>
 			<version>3.4.0</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<!-- we want JDK 1.7 source and binary compatiblility -->
 			<plugin>

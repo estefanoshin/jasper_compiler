@@ -74,11 +74,12 @@
 			<type>pom</type>
 		</dependency>
 
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>core</artifactId>
-			<version>3.4.0</version>
-		</dependency>
+		<!-- SO I WONT HAVE ISSUES WITH THIS DEPENDENCY SKIPPING MY TESTS -->
+		<!-- <dependency> -->
+		<!-- <groupId>com.google.zxing</groupId> -->
+		<!-- <artifactId>core</artifactId> -->
+		<!-- <version>3.4.0</version> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
 			<artifactId>javase</artifactId>
